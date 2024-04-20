@@ -12,7 +12,7 @@ export class UpdateUserDto extends PartialType(CreateUserDto) {
   name: string;
 
   @ApiProperty({
-    description: 'The age of a cat',
+    description: 'The age ',
     default: 'Werdzxc534@gmail.com',
   })
   @IsString()
